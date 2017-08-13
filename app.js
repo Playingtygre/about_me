@@ -1,6 +1,6 @@
 'use strict';
 var correct = 0;
-var userInput = prompt ('Hello friend...................What is your name?');
+var userInput = prompt ('Hello friend! What is your name?');
 alert(userInput + ' ! I am going to ask you a series of questions');
 
 //question1 dog owner
@@ -111,4 +111,6 @@ function food() {
   }
 }
 food();
+
+alert(' awsome ' + userInput + ' you got ' + correct + ' correct+ out of 7 ');
 console.log(correct);
